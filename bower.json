@@ -1,0 +1,27 @@
+{
+  "name": "poly-md-blog",
+  "authors": [
+    "Salvatore Laisa <moebiusmania@gmail.com>"
+  ],
+  "description": "Polymer markdown blog example",
+  "main": "",
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "markdown",
+    "blog"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marked-element": "PolymerElements/marked-element#^1.1.3"
+  }
+}
