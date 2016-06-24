@@ -9,11 +9,10 @@ Install the Polymer CLI toolkit
 
 clone this repo, and from the terminal run this command in the root folder of the project
 
-` polyserve `
+` polymer serve `
 
 and open the browser at this url:
 
-` http://localhost:8080 `
-
+` http://localhost:8080/ `
 
 ##### License
