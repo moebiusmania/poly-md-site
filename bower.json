@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "marked-element": "PolymerElements/marked-element#^1.1.3"
+    "marked-element": "PolymerElements/marked-element#^1.1.3",
+    "juicy-html": "^1.1.0"
   }
 }

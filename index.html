@@ -29,6 +29,7 @@
 
     <!-- Marked element -->
     <link rel="import" href="./bower_components/marked-element/marked-element.html">
+    <link rel="import" href="./bower_components/juicy-html/juicy-html.html">
 
 </head>
 
@@ -70,7 +71,6 @@
                     <div class="post-heading">
                         <h1>Man must explore, and this is exploration at its greatest</h1>
                         <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                        <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>
                     </div>
                 </div>
             </div>
@@ -83,23 +83,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                    <!-- Marked element -->
-                    <marked-element>
-                      <div class="markdown-html"></div>
-                      <script type="text/markdown">
-                        # Edit this block on GitHub editor
-                        This is **real** markdown content!
-
-                        ### Long content
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita magnam, voluptate cumque ea ducimus dolores vero ullam quia, totam nesciunt architecto alias hic, aliquid aperiam recusandae. Ad, expedita nulla praesentium.
-
-                        ```html
-                        <p>Code example</p>
-                        ```
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi repudiandae sit adipisci nam, a aut corporis. Rem explicabo inventore ipsum, non perferendis officia aut maxime eius, numquam, mollitia necessitatibus consectetur?
-                      </script>
-                    </marked-element>
+                  <template is="juicy-html" content="./content.html"></template>
 
                 </div>
             </div>
@@ -139,7 +123,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
                 </div>
             </div>
         </div>
